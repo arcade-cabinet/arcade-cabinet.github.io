@@ -2,11 +2,12 @@
   arcade-cabinet Documentation Portal
   
   BRANDING HIERARCHY:
-  1. Enterprise base (jbcom) - fonts, core colors, layout
-  2. Org theme - accent colors (inline below)
-  3. Org customizations - unique to this org
+  1. Enterprise base (jbcom.github.io) - fonts, core colors, layout
+  2. Org theme - Arcade Pink/Magenta
+  3. Org customizations - Retro arcade styling
   
   Owner: Jon Bogaty (jbcom)
+  Part of the jbcom Enterprise ecosystem
 */
 
 /* ===== LAYER 1: Enterprise Base ===== */
@@ -23,4 +24,6 @@
 
 /* ===== LAYER 3: Arcade-Specific ===== */
 /* Retro arcade game styling */
-
+.hero h1 {
+  text-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+}
